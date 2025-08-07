@@ -2,8 +2,52 @@
 
 Climacode is a Python 3 desktop application that provides real-time weather data and scientific metrics for any location worldwide. Users can manually enter a city and country or use geolocation to fetch weather details, including temperature, humidity, wind speed, air quality index (AQI), dew point, UV index, and mean sea level pressure. 
 
-The application features a modern graphical user interface (GUI) built with Tkinter and ttkbootstrap, data visualization with Matplotlib, and robust error handling. It integrates the OpenWeatherMap API for standard weather data and the Open-Meteo API for advanced scientific metrics, making it a comprehensive tool for weather enthusiasts and professionals.
-
+The application features a modern graphical user interface (GUI) built with Tkinter and ttkbootstrap, data visualization with Matplotlib, and robust error handling. It integrates the OpenWeatherMap API for standard weather data and the Open-Meteo API for advanced scientific metrics, making it a comprehensive tool for weather enthusiasts and professionals.  
+## Folder Structure   
+     
+      Weather-App/
+      │
+      ├── src/
+      │   ├── __init__.py
+      │   ├── main.py
+      │   ├── api/
+      │   │   ├── __init__.py
+      │   │   ├── weather_api.py
+      │   │   ├── geolocation.py
+      │   ├── gui/
+      │   │   ├── __init__.py
+      │   │   ├── main_window.py
+      │   │   ├── styles.py
+      │   ├── data/
+      │   │   ├── __init__.py
+      │   │   ├── data_processor.py
+      │   │   ├── visualizer.py
+      │   ├── utils/
+      │   │   ├── __init__.p 
+      │   │   ├── config.py
+      │   │   ├── logger.py
+      │   ├── assets/
+      │   │   ├── weather_icons/
+      │   │   │   ├── clear.png
+      │   │   │   ├── clouds.png
+      │   │   │   ├── rain.png
+      │   │   │   ├── snow.png
+      │   │   │   ├── thunderstorm.png
+      │   │   │   ├── mist.png
+      │
+      ├── data/
+      │   ├── sample_weather_data.json
+      │   ├── historical_weather_data.csv
+      │
+      ├── tests/
+      │   ├── __init__.py
+      │   ├── test_weather_api.py
+      │   ├── test_data_processor.py
+      │
+      ├── requirements.txt
+      ├── README.md
+      ├── LICENSE
+      └── .gitignore
 ## Features
 - **Real-Time Weather Data**: Fetches current weather conditions, including temperature, humidity, wind speed, and weather description.
 - **Scientific Metrics**: Displays dew point, UV index, and mean sea level pressure, providing insights beyond standard weather apps.
