@@ -1,0 +1,8 @@
+{
+  "coord": {"lon": -0.1257, "lat": 51.5085},
+  "weather": [{"id": 800, "main": "Clear", "description": "clear sky", "icon": "01d"}],
+  "main": {"temp": 15.0, "humidity": 70, "pressure": 1012},
+  "wind": {"speed": 3.5},
+  "sys": {"country": "GB", "sunrise": 1633060800, "sunset": 1633104000},
+  "name": "London"
+}
