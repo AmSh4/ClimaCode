@@ -4,7 +4,7 @@ Climacode is a Python 3 desktop application that provides real-time weather data
 
 The application features a modern graphical user interface (GUI) built with Tkinter and ttkbootstrap, data visualization with Matplotlib, and robust error handling. It integrates the OpenWeatherMap API for standard weather data and the Open-Meteo API for advanced scientific metrics, making it a comprehensive tool for weather enthusiasts and professionals.  
 ## Folder Structure   
-     [View](Structure.md)
+(View)[Structure.md]
 ## Features
 - **Real-Time Weather Data**: Fetches current weather conditions, including temperature, humidity, wind speed, and weather description.
 - **Scientific Metrics**: Displays dew point, UV index, and mean sea level pressure, providing insights beyond standard weather apps.
